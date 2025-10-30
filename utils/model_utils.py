@@ -12,7 +12,7 @@ class FatigueDetection:
         self.eyes_image = []
         self.mouth_image = []
         self.detector = MTCNN()
-        self.model = load_model('./models/fatigue_model.h5')  # Load pre-trained model
+        self.model = load_model('./fatigue_model.h5')  # Load pre-trained model
 
     def generate_frame(self):
         cap = cv2.VideoCapture(self.path)
