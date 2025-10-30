@@ -1,0 +1,16 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore uploaded video files
+uploads/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore log files
+*.log
+
+datasets/
+
+models/*.h5
